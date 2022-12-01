@@ -7,17 +7,17 @@
     --dark-blue: hsl(218, 44%, 22%);
     --padding: 20px;
     --border-radius: 10px;
-    --title-size: 20px;
+    --title-size: 1.25rem;
     --max-width: 285px;
 }
 
 body {    
     display: flex;
     justify-content: center;
-    height: 100vh;
+    align-items: center;
+    min-height: 100vh;
     font-family: 'Outfit', sans-serif;
     background-color: var(--light-gray);
-    font-size: 15px;
 }
 
 .card {
